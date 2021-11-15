@@ -1,0 +1,10 @@
+.images-column {
+  column-count: 3;
+  column-gap: 10px;
+}
+
+.portfolio-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}

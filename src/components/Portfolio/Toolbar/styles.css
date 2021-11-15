@@ -1,0 +1,19 @@
+.filters-list {
+  display: flex;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.filter-button {
+  border: 1px solid dimgray;
+  color: #000;
+  background-color: #fff;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.filter-active {
+  background-color: dimgray;
+  color: #fff;
+}
