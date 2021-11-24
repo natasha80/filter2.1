@@ -1,4 +1,5 @@
 import './styles.css';
+import PropTypes from 'prop_types'
 
 export default function Toolbar(props) {
   const { filters, selected, onSelectFilter } = props;
@@ -20,4 +21,12 @@ export default function Toolbar(props) {
       {filterItems}
     </ul>
   );
+}
+
+Toolbar.propTypes = {
+  prop: PropTypes.shape({
+    filters: PropTypes.arrayOf(PropTypes.string),
+    selected: PropTypes.arryOf(PropTypes.string),
+    onSelectFilter: PropTypes.func
+  }),
 }
